@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Site/1.0.0": {
+        "dependencies": {
+          "Exkyn.Core": "1.0.0.0"
+        },
         "runtime": {
           "Site.dll": {}
+        }
+      },
+      "Exkyn.Core/1.0.0.0": {
+        "runtime": {
+          "Exkyn.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "Site/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exkyn.Core/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

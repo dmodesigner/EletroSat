@@ -28,3 +28,7 @@ C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\refint\Site.dll
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.pdb
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\ref\Site.dll
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\bin\Debug\net7.0\Exkyn.Core.dll
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.csproj.CopyComplete
