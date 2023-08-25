@@ -1,7 +1,24 @@
-﻿.text-primary {
+﻿a {
+    color: #003287 !important;
+}
+
+.text-primary {
     color: #003287 !important;
 }
 
 .btn-primary {
     background-color: #003287 !important;
+    color: #ffffff !important;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: #003287 !important;
+}
+
+.accordion-button:focus {
+    background-color: #003287 !important;
+}
+
+.form-control:focus {
+    border-color: #003287 !important;
 }
