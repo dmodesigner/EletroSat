@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1RFp5qKwYMy+GqoavIVIwpOSY5c+Z0l/aUJIpDgqt0U=",
+  "Hash": "w8GK0XZVjUE6d864A/QAAudIa8BVp/2EFjy8mtmv+uw=",
   "Source": "Site",
   "BasePath": "_content/Site",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\css\\thema.css",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "css/thema.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\thema.css"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\favicon.ico",
