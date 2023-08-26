@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Exkyn.Core">
-      <HintPath>..\..\..\..\..\..\Bibliotecas\Exkyn.Core\Exkyn.Core.dll</HintPath>
-    </Reference>
+    <PackageReference Include="exkyn.core" Version="7.0.0" />
   </ItemGroup>
 
 </Project>

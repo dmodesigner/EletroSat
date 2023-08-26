@@ -30,5 +30,7 @@ C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.genruntime
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\ref\Site.dll
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\bin\Debug\net7.0\Exkyn.Core.dll
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.csproj.AssemblyReference.cache
-C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\danie\OneDrive\Projetos\EletroSat\Site\obj\Debug\net7.0\Site.csproj.CopyComplete
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\danie\OneDrive\Projetos\EletroSat\Site\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
