@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "exkyn.core/7.0.0": {
+      "exkyn.core/7.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.9"
@@ -1581,17 +1581,18 @@
     }
   },
   "libraries": {
-    "exkyn.core/7.0.0": {
-      "sha512": "hOfiRtisQbLiVvfPFXvSAVEA2wqW6LY7nZiZTuiERD8P462uRv9Q9mwx7GVXF6v3Wl97P0atLWyl8BeVnZ0sSA==",
+    "exkyn.core/7.0.2": {
+      "sha512": "7X4LJqu/at/Vf84fr3DVIrC8t2/Cd6FjK3Pdy/S0tBE7/K3zzpSgAYWaaf+zmRnOrGbRfcEocAbQbGhiVNhm2Q==",
       "type": "package",
-      "path": "exkyn.core/7.0.0",
+      "path": "exkyn.core/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "README.md",
-        "exkyn.core.7.0.0.nupkg.sha512",
+        "exkyn.core.7.0.2.nupkg.sha512",
         "exkyn.core.nuspec",
+        "icon-exkyn.png",
         "lib/net7.0/Exkyn.Core.dll"
       ]
     },
@@ -5428,7 +5429,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "exkyn.core >= 7.0.0"
+      "exkyn.core >= 7.0.2"
     ]
   },
   "packageFolders": {
@@ -5478,7 +5479,7 @@
         "dependencies": {
           "exkyn.core": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[7.0.2, )"
           }
         },
         "imports": [

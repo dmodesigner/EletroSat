@@ -21,56 +21,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\about.png",
-      "PackagePath": "staticwebassets\\img\\about.png"
-    },
-    {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\hero-1.png",
       "PackagePath": "staticwebassets\\img\\hero-1.png"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\hero-2.png",
       "PackagePath": "staticwebassets\\img\\hero-2.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-1.png",
-      "PackagePath": "staticwebassets\\img\\icon-1.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-10.png",
-      "PackagePath": "staticwebassets\\img\\icon-10.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-2.png",
-      "PackagePath": "staticwebassets\\img\\icon-2.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-3.png",
-      "PackagePath": "staticwebassets\\img\\icon-3.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-4.png",
-      "PackagePath": "staticwebassets\\img\\icon-4.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-5.png",
-      "PackagePath": "staticwebassets\\img\\icon-5.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-6.png",
-      "PackagePath": "staticwebassets\\img\\icon-6.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-7.png",
-      "PackagePath": "staticwebassets\\img\\icon-7.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-8.png",
-      "PackagePath": "staticwebassets\\img\\icon-8.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\icon-9.png",
-      "PackagePath": "staticwebassets\\img\\icon-9.png"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\logo-eletro-sat.jpg",
@@ -91,6 +47,10 @@
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-4.png",
       "PackagePath": "staticwebassets\\img\\payment-4.png"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\sobre-eletro-sat.jpg",
+      "PackagePath": "staticwebassets\\img\\sobre-eletro-sat.jpg"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\js\\main.js",

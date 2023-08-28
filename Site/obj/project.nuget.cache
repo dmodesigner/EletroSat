@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uOEt2EKqnnUfivsVWKfARsznnHOuYato/l4w2LJhg378iG1sObWMkNO9CqQWgDzYthRW+GccUTItjT16687D1w==",
+  "dgSpecHash": "3S2RJtAebXZxBy6rz8Q+CKYArfhS50kY4tbCmFQke3ZE/BWGtIKv1KTXtOcxhwL8Xf1Wa4WvQ+mxCcITYHLTww==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\Site.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danie\\.nuget\\packages\\exkyn.core\\7.0.0\\exkyn.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\exkyn.core\\7.0.2\\exkyn.core.7.0.2.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
