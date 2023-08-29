@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ABPl8cCoQ7aSk2B5vD0tmAKzC1Bu0H/htL2/S/fedWk=",
+  "Hash": "dZgsDPUCuIcClOenkTkojkCTzjIAOPsll/vGT8kE0ts=",
   "Source": "Site",
   "BasePath": "_content/Site",
   "Mode": "Default",
@@ -119,12 +119,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\hero-1.png",
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\banner-1.jpg",
       "SourceId": "Site",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
       "BasePath": "_content/Site",
-      "RelativePath": "img/hero-1.png",
+      "RelativePath": "img/banner-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,7 +133,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\hero-1.png"
+      "OriginalItemSpec": "wwwroot\\img\\banner-1.jpg"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\hero-2.png",
