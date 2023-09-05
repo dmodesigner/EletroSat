@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dZgsDPUCuIcClOenkTkojkCTzjIAOPsll/vGT8kE0ts=",
+  "Hash": "SAJaCbNHBI4FV29Oy2JXFrzvNxy8AUTABmASVYvCDi0=",
   "Source": "Site",
   "BasePath": "_content/Site",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\img\\banner-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\hero-2.png",
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\img-contato.png",
       "SourceId": "Site",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
       "BasePath": "_content/Site",
-      "RelativePath": "img/hero-2.png",
+      "RelativePath": "img/img-contato.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\hero-2.png"
+      "OriginalItemSpec": "wwwroot\\img\\img-contato.png"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\logo-eletro-sat.jpg",
