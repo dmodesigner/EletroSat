@@ -1,4 +1,19 @@
-﻿<!-- About Start -->
+﻿@{
+    ViewData["Title"] = $"Sobre a {ConstModel.Cliente.Nome}";
+    ViewData["Description"] = "Eletro Sat um eletricista perto de mim. Entre em contato.";
+
+    var breadcrumb = new BreadcrumbModel
+            {
+                Title = ViewData["Title"]?.ToString(),
+                Page = "Sobre Nos",
+                Image = "img-contato.png",
+                ImageAlt = $"A {ConstModel.Cliente.Nome} é o seu eletricista sempre pronto a atender."
+            };
+}
+
+<partial name="_Breadcrumb" model="breadcrumb" />
+
+<!-- About Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5 align-items-center">
