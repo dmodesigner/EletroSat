@@ -1,5 +1,5 @@
 ﻿@{
-	ViewData["Title"] = $"Sobre a {ConstModel.Cliente.Nome}";
+	ViewData["Title"] = $"Cabeamento de Rede";
 	ViewData["Description"] = $"{@ConstModel.Cliente.Nome} um eletricista perto de mim. Entre em contato.";
 
 	var breadcrumb = new BreadcrumbModel
@@ -21,7 +21,7 @@
 
 			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
 
-				<img class="img-fluid" src="~/img/eletricista-quadro-forca.jpg" alt="Eletricista mexendo em uma quadro de força" />
+				<img class="img-fluid" src="~/img/cabeamento-rede.jpg" alt="Cabeamento de redes" />
 
 			</div>
 
@@ -29,26 +29,18 @@
 
 				<div class="h-100">
 
-					<h1 class="display-6">Sobre Nos</h1>
+					<h1 class="display-6">@ViewData["Title"]</h1>
 
-					<p>A @ConstModel.Cliente.Nome é seu eletricista profissional que executa instalações, vistorias e reparos relacionados a qualquer sistema elétrico. O profissional cuida de instalações residenciais. A profissão é indispensável para a sociedade, pois a energia elétrica está presente cada vez mais no cotidiano de todos.</p>
-
-					<p class="text-primary fs-5 mb-4">
-						O que é um eletricista?
-					</p>
 					<p>
-						Um eletricista é um profissional que atua na implementação e manutenção de instalações elétricas. Ele realiza manutenção preventiva e corretiva, faz instalação de quadros de distribuição de força e analisa o consumo de energia.
+						Cabeamento de rede é um conjunto de cabos e conectores que permitem a transmissão de dados entre dispositivos em uma rede. Ele é responsável por conectar à internet todos os itens de rede, como computadores, impressoras, servidores, câmeras de segurança e diversos outros equipamentos.
+
 					</p>
 
-					<p class="text-primary fs-5 mb-4">
-						Por que é importante executar serviços elétricos com um eletricista?
-					</p>
 					<p>
-						Contratar um eletricista para fazer serviços especializados evita dores de cabeça e garante a segurança. O sistema elétrico é complexo e pode ser muito perigoso, caso seja manuseado de forma inadequada. Por essa razão, procure sempre um eletricista profissional experiente quando necessitar realizar qualquer tipo de serviço elétrico. Dessa forma, seja em casa ou no trabalho o importante é não vacilar e sempre ter em mãos o contato de um eletricista confiável.
+						O cabeamento estruturado é um sistema utilizado no setor de infraestrutura de TI em uma empresa e até mesmo em condomínios e edifícios. Trata-se do sistema que garante a durabilidade e segurança de todos os equipamentos conectados, facilitando o suporte técnico.
 					</p>
-					<p>
-						Dar um jeitinho sai bem mais caro que contratar um especialista de verdade, chame a @ConstModel.Cliente.Nome entrando em <a asp-controller="contato">contato</a> ou se preferir conheca <a asp-controller="servico">nossos serviços</a>.
-					</p>
+
+					<a class="btn btn-primary py-3 px-4" asp-controller="contato" asp-action="">Entre em Contato</a>
 
 				</div>
 

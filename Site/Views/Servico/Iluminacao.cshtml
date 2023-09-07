@@ -1,13 +1,13 @@
 ﻿@{
-	ViewData["Title"] = $"Sobre a {ConstModel.Cliente.Nome}";
+	ViewData["Title"] = $"Iluminação";
 	ViewData["Description"] = $"{@ConstModel.Cliente.Nome} um eletricista perto de mim. Entre em contato.";
 
 	var breadcrumb = new BreadcrumbModel
 			{
 				Title = ViewData["Title"]?.ToString(),
-				Page = "Sobre Nos",
-				Image = "eletricista-perto-de-mim.png",
-				ImageAlt = $"A {ConstModel.Cliente.Nome} é seu eletricista perto de mim"
+				Page = "Iluminação",
+				Image = "lampada.png",
+				ImageAlt = $"A {ConstModel.Cliente.Nome} oferece serviços de cabeamento de rede para garantir a melhor cobertura de internet na sua residencia"
 			};
 }
 
@@ -21,7 +21,7 @@
 
 			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
 
-				<img class="img-fluid" src="~/img/eletricista-quadro-forca.jpg" alt="Eletricista mexendo em uma quadro de força" />
+				<img class="img-fluid" src="~/img/iluminacao-residencial.jpg" alt="Iluminação residencial" />
 
 			</div>
 
@@ -29,26 +29,37 @@
 
 				<div class="h-100">
 
-					<h1 class="display-6">Sobre Nos</h1>
+					<h1 class="display-6">@ViewData["Title"]</h1>
 
-					<p>A @ConstModel.Cliente.Nome é seu eletricista profissional que executa instalações, vistorias e reparos relacionados a qualquer sistema elétrico. O profissional cuida de instalações residenciais. A profissão é indispensável para a sociedade, pois a energia elétrica está presente cada vez mais no cotidiano de todos.</p>
+					<p>A iluminação residencial é a escolha de luz que será aplicada nos cômodos e ambientes da sua casa, de modo a favorecer sensações estéticas e usos do dia-a-dia. </p>
 
-					<p class="text-primary fs-5 mb-4">
-						O que é um eletricista?
-					</p>
+					<p>Para isso, é preciso conhecer os tipos de iluminação, temperatura de cor, lâmpadas, luminárias e tudo mais que pode influenciar na iluminação do espaço.</p>
+
 					<p>
-						Um eletricista é um profissional que atua na implementação e manutenção de instalações elétricas. Ele realiza manutenção preventiva e corretiva, faz instalação de quadros de distribuição de força e analisa o consumo de energia.
+						Um projeto de iluminação residencial busca identificar qual é a utilização adequada da iluminação artificial para valorizar a arquitetura de um ambiente e torná-lo mais funcional de acordo com seu objetivo.
 					</p>
 
-					<p class="text-primary fs-5 mb-4">
-						Por que é importante executar serviços elétricos com um eletricista?
-					</p>
 					<p>
-						Contratar um eletricista para fazer serviços especializados evita dores de cabeça e garante a segurança. O sistema elétrico é complexo e pode ser muito perigoso, caso seja manuseado de forma inadequada. Por essa razão, procure sempre um eletricista profissional experiente quando necessitar realizar qualquer tipo de serviço elétrico. Dessa forma, seja em casa ou no trabalho o importante é não vacilar e sempre ter em mãos o contato de um eletricista confiável.
+						Ambientes empresariais, por exemplo, precisam estimular a atenção e a produtividade. Já espaços residenciais, buscam trazer aconchego e conforto. E, acredite: a iluminação adequada faz toda a diferença para transmitir essas sensações.
 					</p>
+
 					<p>
-						Dar um jeitinho sai bem mais caro que contratar um especialista de verdade, chame a @ConstModel.Cliente.Nome entrando em <a asp-controller="contato">contato</a> ou se preferir conheca <a asp-controller="servico">nossos serviços</a>.
+						Para alcançar esse objetivo, o profissional responsável pelo projeto luminotécnico analisa:
 					</p>
+
+					<ul>
+						<li>Tipo de iluminação ideal</li>
+						<li>Escolha da lâmpada</li>
+						<li>Temperatura da cor</li>
+						<li>Intensidade da luz</li>
+						<li>Posição das lâmpadas</li>
+					</ul>
+
+					<p>
+						Além de proporcionar a funcionalidade necessária para cada espaço, tudo isso também contribui para gerar economia de energia, já que a iluminação é organizada de maneira estratégica conforme a necessidade do ambiente.
+					</p>
+
+					<a class="btn btn-primary py-3 px-4" asp-controller="contato" asp-action="">Entre em Contato</a>
 
 				</div>
 
