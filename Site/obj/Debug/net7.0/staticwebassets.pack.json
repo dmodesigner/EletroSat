@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\banner-1.jpg"
     },
     {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\cabeamento-rede.jpg",
+      "PackagePath": "staticwebassets\\img\\cabeamento-rede.jpg"
+    },
+    {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-perto-de-mim.png",
       "PackagePath": "staticwebassets\\img\\eletricista-perto-de-mim.png"
     },
@@ -33,32 +37,32 @@
       "PackagePath": "staticwebassets\\img\\eletricista-quadro-forca.jpg"
     },
     {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\iluminacao-residencial.jpg",
+      "PackagePath": "staticwebassets\\img\\iluminacao-residencial.jpg"
+    },
+    {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\img-contato.png",
       "PackagePath": "staticwebassets\\img\\img-contato.png"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\lampada.png",
+      "PackagePath": "staticwebassets\\img\\lampada.png"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\logo-eletro-sat.jpg",
       "PackagePath": "staticwebassets\\img\\logo-eletro-sat.jpg"
     },
     {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-1.png",
-      "PackagePath": "staticwebassets\\img\\payment-1.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-2.png",
-      "PackagePath": "staticwebassets\\img\\payment-2.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-3.png",
-      "PackagePath": "staticwebassets\\img\\payment-3.png"
-    },
-    {
-      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-4.png",
-      "PackagePath": "staticwebassets\\img\\payment-4.png"
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\projeto-eletrico.jpg",
+      "PackagePath": "staticwebassets\\img\\projeto-eletrico.jpg"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\sobre-eletro-sat.jpg",
       "PackagePath": "staticwebassets\\img\\sobre-eletro-sat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\substituicao-cabeamento-eletrico.jpg",
+      "PackagePath": "staticwebassets\\img\\substituicao-cabeamento-eletrico.jpg"
     },
     {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\js\\main.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fKBBD5dCufEwB96kZSfzpWDB/JeJ+A7dbokGh4ABIh8=",
+  "Hash": "rSkyXCHEy5q+bnktdtqqrqrHNIpzpgqHaDxXRu2xgtA=",
   "Source": "Site",
   "BasePath": "_content/Site",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\img\\banner-1.jpg"
     },
     {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\cabeamento-rede.jpg",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/cabeamento-rede.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cabeamento-rede.jpg"
+    },
+    {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-perto-de-mim.png",
       "SourceId": "Site",
       "SourceType": "Discovered",
@@ -170,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\img\\eletricista-quadro-forca.jpg"
     },
     {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\iluminacao-residencial.jpg",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/iluminacao-residencial.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\iluminacao-residencial.jpg"
+    },
+    {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\img-contato.png",
       "SourceId": "Site",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\img-contato.png"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\lampada.png",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/lampada.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\lampada.png"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\logo-eletro-sat.jpg",
@@ -204,12 +255,12 @@
       "OriginalItemSpec": "wwwroot\\img\\logo-eletro-sat.jpg"
     },
     {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-1.png",
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\projeto-eletrico.jpg",
       "SourceId": "Site",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
       "BasePath": "_content/Site",
-      "RelativePath": "img/payment-1.png",
+      "RelativePath": "img/projeto-eletrico.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,58 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\payment-1.png"
-    },
-    {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-2.png",
-      "SourceId": "Site",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
-      "BasePath": "_content/Site",
-      "RelativePath": "img/payment-2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\payment-2.png"
-    },
-    {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-3.png",
-      "SourceId": "Site",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
-      "BasePath": "_content/Site",
-      "RelativePath": "img/payment-3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\payment-3.png"
-    },
-    {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\payment-4.png",
-      "SourceId": "Site",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
-      "BasePath": "_content/Site",
-      "RelativePath": "img/payment-4.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\payment-4.png"
+      "OriginalItemSpec": "wwwroot\\img\\projeto-eletrico.jpg"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\sobre-eletro-sat.jpg",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sobre-eletro-sat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\substituicao-cabeamento-eletrico.jpg",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/substituicao-cabeamento-eletrico.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\substituicao-cabeamento-eletrico.jpg"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\js\\main.js",
