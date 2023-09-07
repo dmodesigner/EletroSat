@@ -31,13 +31,13 @@
 
             <div class="nav-item dropdown">
 
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+                <a asp-controller="servico" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
 
                 <div class="dropdown-menu shadow-sm m-0">
-                    <a href="#" class="dropdown-item">Substituição de Cabeamento</a>
-                    <a href="#" class="dropdown-item">Iluminação</a>
-                    <a href="#" class="dropdown-item">Projetos Elétricos</a>
-                    <a href="#" class="dropdown-item">Cabeamento de Redes</a>
+                    <a asp-controller="servico" asp-action="cabeamentorede" class="dropdown-item">Substituição de Cabeamento</a>
+                    <a asp-controller="servico" asp-action="iluminacao" class="dropdown-item">Iluminação</a>
+                    <a asp-controller="servico" asp-action="projetoeletrico" class="dropdown-item">Projetos Elétricos</a>
+                    <a asp-controller="servico" asp-action="substituicaocabeamento" class="dropdown-item">Cabeamento de Redes</a>
                 </div>
 
             </div>
