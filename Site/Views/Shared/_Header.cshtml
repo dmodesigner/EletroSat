@@ -25,13 +25,13 @@
 
         <div class="navbar-nav ms-auto py-4 py-lg-0">
 
-            <a asp-controller="home" class="nav-item nav-link active">Home</a>
+            <a asp-controller="home" asp-action="" class="nav-item nav-link active">Home</a>
 
-            <a asp-controller="sobrenos" class="nav-item nav-link">Sobre Nós</a>
+            <a asp-controller="sobrenos" asp-action="" class="nav-item nav-link">Sobre Nós</a>
 
             <div class="nav-item dropdown">
 
-                <a asp-controller="servico" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
+                <a asp-controller="servico" asp-action="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Serviços</a>
 
                 <div class="dropdown-menu shadow-sm m-0">
                     <a asp-controller="servico" asp-action="substituicaocabeamento" class="dropdown-item">Substituição de Cabeamento</a>
@@ -42,7 +42,7 @@
 
             </div>
            
-            <a asp-controller="contato" class="nav-item nav-link">Contato</a>
+            <a asp-controller="contato" asp-action="" class="nav-item nav-link">Contato</a>
 
         </div>
 

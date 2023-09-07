@@ -5,8 +5,8 @@
 	var breadcrumb = new BreadcrumbModel
 			{
 				Title = ViewData["Title"]?.ToString(),
-				Page = "Sobre Nos",
-				Image = "eletricista-perto-de-mim.png",
+				Page = "Serviços",
+				Image = "lampada.png",
 				ImageAlt = $"A {ConstModel.Cliente.Nome} é seu eletricista perto de mim"
 			};
 }
@@ -15,47 +15,84 @@
 
 <div class="container-xxl py-5">
 
-	<div class="container">
+    <div class="container">
 
-		<div class="row g-5 align-items-center">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s">
 
-			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="display-6">@ViewData["Title"]</h1>
 
-				<img class="img-fluid" src="~/img/eletricista-quadro-forca.jpg" alt="Eletricista mexendo em uma quadro de força" />
+            <p class="text-primary fs-5 mb-5">@ViewData["Description"]</p>
 
-			</div>
+        </div>
 
-			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row g-4">
 
-				<div class="h-100">
+            <div class="col-lg-6 col-md-6  col-sm-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
 
-					<h1 class="display-6">Sobre Nos</h1>
+                <div class="service-item bg-light p-5">
 
-					<p>A @ConstModel.Cliente.Nome é seu eletricista profissional que executa instalações, vistorias e reparos relacionados a qualquer sistema elétrico. O profissional cuida de instalações residenciais. A profissão é indispensável para a sociedade, pois a energia elétrica está presente cada vez mais no cotidiano de todos.</p>
+                    <h5 class="mb-3">Substituição de Cabeamento</h5>
 
-					<p class="text-primary fs-5 mb-4">
-						O que é um eletricista?
-					</p>
-					<p>
-						Um eletricista é um profissional que atua na implementação e manutenção de instalações elétricas. Ele realiza manutenção preventiva e corretiva, faz instalação de quadros de distribuição de força e analisa o consumo de energia.
-					</p>
+                    <p>
+                        A substituição de cabeamento elétrico é um processo que consiste em trocar os cabos elétricos antigos por novos.
+                    </p>
 
-					<p class="text-primary fs-5 mb-4">
-						Por que é importante executar serviços elétricos com um eletricista?
-					</p>
-					<p>
-						Contratar um eletricista para fazer serviços especializados evita dores de cabeça e garante a segurança. O sistema elétrico é complexo e pode ser muito perigoso, caso seja manuseado de forma inadequada. Por essa razão, procure sempre um eletricista profissional experiente quando necessitar realizar qualquer tipo de serviço elétrico. Dessa forma, seja em casa ou no trabalho o importante é não vacilar e sempre ter em mãos o contato de um eletricista confiável.
-					</p>
-					<p>
-						Dar um jeitinho sai bem mais caro que contratar um especialista de verdade, chame a @ConstModel.Cliente.Nome entrando em <a asp-controller="contato">contato</a> ou se preferir conheca <a asp-controller="servico">nossos serviços</a>.
-					</p>
+                    <a asp-controller="servico" asp-action="substituicaocabeamento">Leia mais <i class="fa fa-arrow-right ms-2"></i></a>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-		</div>
+            <div class="col-lg-6 col-md-6  col-sm-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
 
-	</div>
+                <div class="service-item bg-light p-5">
+
+                    <h5 class="mb-3">Iluminação</h5>
+
+                    <p>
+                        A iluminação residencial é a escolha de luz que será aplicada nos cômodos e ambientes da sua casa...
+                    </p>
+
+                    <a asp-controller="servico" asp-action="iluminacao">Leia mais <i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6  col-sm-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
+
+                <div class="service-item bg-light p-5">
+
+                    <h5 class="mb-3">Projeto Elétrico</h5>
+
+                    <p>
+                        Um projeto elétrico é um conjunto de informações, cálculos, desenhos e detalhes referentes a uma instalação elétrica...
+                    </p>
+
+                    <a asp-controller="servico" asp-action="projetoeletrico">Leia mais <i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6  col-sm-6 col-12 wow fadeInUp" data-wow-delay="0.1s">
+
+                <div class="service-item bg-light p-5">
+
+                    <h5 class="mb-3">Cabeamento de Rede</h5>
+
+                    <p>
+                        Cabeamento de rede é um conjunto de cabos e conectores que permitem a transmissão de dados entre dispositivos...
+                    </p>
+
+                    <a asp-controller="servico" asp-action="cabeamentorede">Leia mais <i class="fa fa-arrow-right ms-2"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
