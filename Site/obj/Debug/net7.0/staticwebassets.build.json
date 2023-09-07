@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SAJaCbNHBI4FV29Oy2JXFrzvNxy8AUTABmASVYvCDi0=",
+  "Hash": "fKBBD5dCufEwB96kZSfzpWDB/JeJ+A7dbokGh4ABIh8=",
   "Source": "Site",
   "BasePath": "_content/Site",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\banner-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-perto-de-mim.png",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/eletricista-perto-de-mim.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\eletricista-perto-de-mim.png"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-quadro-forca.jpg",
+      "SourceId": "Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\",
+      "BasePath": "_content/Site",
+      "RelativePath": "img/eletricista-quadro-forca.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\eletricista-quadro-forca.jpg"
     },
     {
       "Identity": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\img-contato.png",

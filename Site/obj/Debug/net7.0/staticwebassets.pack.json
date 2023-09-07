@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\img\\banner-1.jpg"
     },
     {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-perto-de-mim.png",
+      "PackagePath": "staticwebassets\\img\\eletricista-perto-de-mim.png"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\eletricista-quadro-forca.jpg",
+      "PackagePath": "staticwebassets\\img\\eletricista-quadro-forca.jpg"
+    },
+    {
       "Id": "C:\\Users\\danie\\OneDrive\\Projetos\\EletroSat\\Site\\wwwroot\\img\\img-contato.png",
       "PackagePath": "staticwebassets\\img\\img-contato.png"
     },
