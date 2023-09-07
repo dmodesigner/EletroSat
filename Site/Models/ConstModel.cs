@@ -2,10 +2,10 @@
 {
 	public class ConstModel
 	{
-		public class Cliente
+		public class Client
 		{
-			public const string Nome = "Eletro Sat";
-            public const string Telefone = "+55 (11) 99999-9999";
+			public const string Name = "Eletro Sat";
+            public const string Phone = "+55 (11) 93020-1545";
             public const string Email = "contato@eletrosat.com.br";
         }
 	}

@@ -1,13 +1,13 @@
 ﻿@{
 	ViewData["Title"] = $"Serviços";
-	ViewData["Description"] = $"{@ConstModel.Cliente.Nome} um eletricista perto de mim. Entre em contato.";
+	ViewData["Description"] = $"{@ConstModel.Client.Name} um eletricista perto de mim. Entre em contato.";
 
 	var breadcrumb = new BreadcrumbModel
 			{
 				Title = ViewData["Title"]?.ToString(),
 				Page = "Serviços",
 				Image = "lampada.png",
-				ImageAlt = $"A {ConstModel.Cliente.Nome} é seu eletricista perto de mim"
+				ImageAlt = $"A {ConstModel.Client.Name} é seu eletricista perto de mim"
 			};
 }
 

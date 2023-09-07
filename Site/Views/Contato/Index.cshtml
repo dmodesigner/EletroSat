@@ -7,7 +7,7 @@
                 Title = ViewData["Title"]?.ToString(),
                 Page = "Contato",
                 Image = "img-contato.png",
-                ImageAlt = $"Entre em contato com a {ConstModel.Cliente.Nome}"
+                ImageAlt = $"Entre em contato com a {ConstModel.Client.Name}"
             };
 }
 
@@ -22,7 +22,7 @@
 
             <div class="col">
 
-                <h1 class="display-6">Entre em contato com a @ConstModel.Cliente.Nome</h1>
+                <h1 class="display-6">Entre em contato com a @ConstModel.Client.Name</h1>
 
                 <p class="text-primary fs-5 mb-0">Responderemos sua mensagem o mais rápido possível</p>
 
@@ -36,13 +36,13 @@
 
                 <p class="mb-2">Whatsapp:</p>
 
-                <h4>@ConstModel.Cliente.Telefone</h4>
+                <h4>@ConstModel.Client.Phone</h4>
 
                 <hr class="w-100">
 
                 <p class="mb-2">E-mail:</p>
 
-                <h4>@ConstModel.Cliente.Email</h4>
+                <h4>@ConstModel.Client.Email</h4>
 
                 <hr class="w-100">
 

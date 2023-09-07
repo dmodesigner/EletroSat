@@ -1,13 +1,13 @@
 ﻿@{
 	ViewData["Title"] = $"Projeto Elétrico";
-	ViewData["Description"] = $"{@ConstModel.Cliente.Nome} um eletricista perto de mim. Entre em contato.";
+	ViewData["Description"] = $"{@ConstModel.Client.Name} um eletricista perto de mim. Entre em contato.";
 
 	var breadcrumb = new BreadcrumbModel
 			{
 				Title = ViewData["Title"]?.ToString(),
 				Page = "Projeto Elétrico",
 				Image = "lampada.png",
-				ImageAlt = $"A {ConstModel.Cliente.Nome} oferece serviços de cabeamento de rede para garantir a melhor cobertura de internet na sua residencia"
+				ImageAlt = $"A {ConstModel.Client.Name} oferece serviços de cabeamento de rede para garantir a melhor cobertura de internet na sua residencia"
 			};
 }
 
