@@ -7,8 +7,8 @@
 				Title = ViewData["Title"]?.ToString(),
 				PageDefault = "Serviço",
 				Page = "Substituição de Cabeamento",
-				Image = "lampada.png",
-				ImageAlt = $"A {ConstModel.Client.Name} oferece serviços de cabeamento de rede para garantir a melhor cobertura de internet na sua residencia"
+				Image = "substituicao-cabeamento-eletrico.jpg",
+				ImageAlt = "Substituição de cabeamento eletrico ou manutenção preventiva"
 			};
 }
 
@@ -20,17 +20,15 @@
 
 		<div class="row g-5 align-items-center">
 
-			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+			<div class="col-12" data-wow-delay="0.1s">
 
-				<img class="img-fluid" src="~/img/substituicao-cabeamento-eletrico.jpg" alt="Substituição de cabeamento eletrico ou manutenção preventiva" />
+				<h1 class="display-6">@ViewData["Title"]</h1>
 
 			</div>
 
-			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+			<div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
 
-				<div class="h-100">
-
-					<h1 class="display-6">@ViewData["Title"]</h1>
+				<div class="h-100">				
 
 					<p>
 						A substituição de cabeamento elétrico é um processo que consiste em trocar os cabos elétricos antigos por novos.
