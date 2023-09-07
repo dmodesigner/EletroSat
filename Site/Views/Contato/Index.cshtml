@@ -1,28 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Contato";
+    ViewData["Title"] = "Entre em Contato";
     ViewData["Description"] = "Eletro Sat um eletricista perto de mim. Entre em contato.";
+
+    var breadcrumb = new BreadcrumbModel
+            {
+                Title = ViewData["Title"]?.ToString(),
+                Page = "Contato",
+                Image = "img-contato.png",
+                ImageAlt = $"Entre em contato com a {ConstModel.Cliente.Nome}"
+            };
 }
 
-<!-- Header Start -->
-<div class="container-fluid hero-header bg-light py-5 mb-5">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <h1 class="display-4 mb-3 animated slideInDown">Entre em Contato</h1>
-                <nav aria-label="breadcrumb animated slideInDown">
-                    <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a asp-controller="home">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contato</li>
-                    </ol>
-                </nav>
-            </div>
-            <div class="col-lg-6 animated fadeIn">
-                <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/img-contato.png" alt="Entre em contato com a @ConstModel.Cliente.Nome" />
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Header End -->
+<partial name="_Breadcrumb" model="breadcrumb" />
 
 <!-- Contact Start -->
 <div class="container-xxl py-5">

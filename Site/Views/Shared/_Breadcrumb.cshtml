@@ -1,0 +1,46 @@
+﻿@model BreadcrumbModel
+
+<div class="container-fluid hero-header bg-light mb-5">
+
+    <div class="container">
+
+        <div class="row g-5 align-items-center">
+
+            <div class="col-lg-6">
+
+                @if (!string.IsNullOrEmpty(Model.Title))
+                {
+                    <h1 class="display-4 mb-3 animated slideInDown">@Model.Title</h1>
+                }                
+
+                <nav aria-label="breadcrumb animated slideInDown">
+
+                    <ol class="breadcrumb mb-0">
+
+                        <li class="breadcrumb-item"><a asp-controller="home">Home</a></li>
+
+                        @if (!string.IsNullOrEmpty(Model.Page))
+                        {
+                            <li class="breadcrumb-item active" aria-current="page">@Model.Page</li>
+                        }
+
+                    </ol>
+
+                </nav>
+
+            </div>
+
+            <div class="col-lg-6 animated fadeIn">
+
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="~/img/@Model.Image" alt="@Model.ImageAlt" />
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
