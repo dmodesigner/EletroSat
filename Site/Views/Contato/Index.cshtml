@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Entre em Contato";
-    ViewData["Description"] = "Eletro Sat um eletricista perto de mim. Entre em contato.";
+    ViewData["Description"] = $"{ConstModel.Client.Name} um eletricista perto de mim. Entre em contato.";
 
     var breadcrumb = new BreadcrumbModel
             {
@@ -50,9 +50,9 @@
 
                 <div class="d-flex pt-2">
 
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-primary rounded-circle me-2" href="@ConstModel.SocialMedia.Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    
+                    <a class="btn btn-square btn-primary rounded-circle me-2" href="@ConstModel.SocialMedia.Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
 
                 </div>
 
