@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 env:
-  LOCAL: ${{ github.workspace }}/output
-  SERVER: "eletrosat.com.br"
+  LOCAL: ${{ github.workspace }}/output/
+  SERVER: "eletrosat.com.br/"
   
 jobs:
   web-deploy:
