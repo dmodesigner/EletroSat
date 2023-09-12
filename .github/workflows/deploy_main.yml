@@ -1,4 +1,4 @@
-name: Deploy do site em produção
+name: Deploy do site "eletrosat.com.br" em produção
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
       run: dotnet restore
       
     - name: Gera o Pacote
-      run: dotnet build -c Release -o ${{ env.LOCAL }}
+      run: dotnet publish -c Release -o ${{ env.LOCAL }}
       
     - name: Sincronizar arquivos
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4      
