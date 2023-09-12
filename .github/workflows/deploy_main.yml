@@ -36,5 +36,5 @@ jobs:
         server: ${{ secrets.HOST_FTP }}
         username: ${{ secrets.USER_FTP }}
         password: ${{ secrets.PASSWORD_FTP }}
-        local_dir: ${{ env.LOCAL }}
-        server_dir: ${{ env.SERVER }}
+        local-dir: ${{ env.LOCAL }}
+        server-dir: ${{ env.SERVER }}
